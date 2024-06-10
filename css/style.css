@@ -1,11 +1,11 @@
 body
 {
-    background-color: #24353F;
+    background-color: #2107a0da;
     font-family: sans-serif;
 }
 :root
 {
-    --darkBlueShadow:#17a2b8;
+    --darkBlueShadow:#df67df;
 }
 .form-control:focus 
 {
@@ -47,7 +47,7 @@ h1
 }
 .boxShadow
 {
-    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+    box-shadow:10px 10px 30px 8px #512a4acc ;
 }
 @media  screen and (max-width:991px){
     h1

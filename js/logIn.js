@@ -9,19 +9,19 @@ if (localStorage.getItem('Users') != null) {
 function logIn() {
     if(checkInputsEmpty() == true)
     {
-        //alert message
+       
         getAlertMessage('All Inputs Required','red')
     }
     else
     {
         if(checkEmailPassword() == true)
         {
-            //navigate home page
+            
             window.location.href='home.html';
         }
         else
         {
-            //alert message 
+            
             getAlertMessage('Email or Password notCorrect','red');
         }
     }

@@ -17,7 +17,7 @@ function signUp() {
         passwrod: passwordInput.value
     }
     if (checkInputsEmpty() == true) {
-        //alert message
+        
         getAlertMessage('All Inputs Required', 'red');
     }
     else {
@@ -33,7 +33,7 @@ function signUp() {
             getAlertMessage('Success', 'green');
         }
     }
-    // console.log(userContainer);
+    
 }
 function getAlertMessage(text, color) {
     alertMassage.classList.replace('d-none', 'd-block');

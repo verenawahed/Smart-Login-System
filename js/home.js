@@ -8,8 +8,7 @@ if(localStorage.getItem('userName') != null)
 
 function logOut()
 {
-    //navigate login page
-    //remove userName from localstorage
+    
     window.location.href='index.html';
     localStorage.removeItem('userName');
 }
